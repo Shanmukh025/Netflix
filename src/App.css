@@ -106,14 +106,20 @@ nav {
 .nav-links {
   margin-left: 25px;
   display: flex;
-  gap: 15px;
+  gap: 20px;
   cursor: pointer;
 }
 
-.nav-links a {
+.nav-links a{
+  color: #d7d0d0;
   text-decoration: none;
-  color: white;
 }
+
+.nav-links a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 
 .right-side {
@@ -151,6 +157,7 @@ nav img {
 }
 
 .profile-dropdown {
+  cursor: pointer;
   position: relative;
 }
 
@@ -171,9 +178,8 @@ nav img {
 
 .dropdown-content a {
   padding: 15px 20px;
-  text-decoration: none;
+  cursor: pointer;
   color: white;
-  text-decoration: underline;
 }
 
 .dropdown-content a:hover {
@@ -442,14 +448,6 @@ footer{
   text-align: center;
   font-weight:600;
 }
-a{
-  text-decoration: none;
-  color:white;
-}
-a:hover{
-  text-decoration: underline;
-}
-
 .profilebox{
   background-color: rgb(24, 23, 23);
   height: 100vh;

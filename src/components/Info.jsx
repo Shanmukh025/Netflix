@@ -76,7 +76,6 @@ const Info = () => {
                         <br/>
                         <p>
                             <ul>
-                                <li>No ads. No extra fees. No in-app purchases.</li>
                                 <li>Unlimited access to more than 50+ exclusive mobile games.</li>
                                 <li>Download on Android phones, tablets, iPhone, iPads and Laptops.</li>
                             </ul>
@@ -84,7 +83,6 @@ const Info = () => {
                     </section>
                 </div>
             </section>
-
             <section className="info-box-3">
                 <h3 className="heading"> More Reasons to Join</h3>
                 <article className="textbox">
