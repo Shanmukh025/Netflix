@@ -13,7 +13,7 @@ body {
 nav {
   max-width: 100%;
   height: 75px;
-  background-color: black;
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +22,7 @@ nav {
 }
 
 .navmain{
-  background-color: black;
+  background-color: #000000;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -194,7 +194,7 @@ button {
 button.sign-in,
 button.sign-up {
   padding: 8px 15px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
   background-color: red;
   font-size: 16px;
@@ -204,7 +204,7 @@ button.sign-up {
   color: white;
   background-color: #272626;
   padding: 4px 2px;
-  border: 1px black;
+  border: 1px #000000;
   cursor: pointer;
   font-size: 14px;
   margin-right: 5px;
@@ -306,7 +306,7 @@ button.sign-up {
 .signupbtn{
   padding: 6px 16px;
   margin-left: 10px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   background-color: rgb(220, 22, 22);
   font-size: 22px;
   border-radius: 5px;
@@ -414,7 +414,7 @@ color: #fff;
 }
 .footercont{
   color: white;
-  background-color: black;
+  background-color: #000000;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -441,8 +441,8 @@ color: #fff;
   align-items: center;
 }
 footer{
-  background-color: black;
-  padding: 20px;
+  background-color: #000000;
+  padding: 10px;
   color: white;
   text-align: center;
   font-weight:600;
@@ -574,7 +574,7 @@ footer a:hover{
 }
 
 .movieinfo{
-  background-color: black;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -771,7 +771,7 @@ footer{
   text-align: center;
 }
 .mainnn{
-  background-color: black;
+  background-color: #000000;
 }
 .stheading{
   width: 600px;
