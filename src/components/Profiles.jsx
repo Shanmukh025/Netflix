@@ -17,7 +17,6 @@ const Profiles = () => {
     return (
     <>
     <div className='profilebox'>
-    
     <div className='profilelist'>
         <div className='profileheading'>
             Who's Watching?

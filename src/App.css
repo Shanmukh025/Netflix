@@ -37,8 +37,8 @@ nav {
 }
 
 .logo-container img {
-  width: 100px;
-  height: auto;
+  width: 150px;
+  height: 50px;
   cursor: pointer;
 }
 .signup-text{
@@ -450,6 +450,7 @@ a:hover{
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .profileheading{
