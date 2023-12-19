@@ -7,6 +7,7 @@
 
 body {
   width: 100%;
+  height: max-content;
 }
 
 nav {
@@ -365,43 +366,6 @@ color: #fff;
   border-radius: 0 15px 15px 0;
 }
 
-
-/* .info{
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.infogap {
-  background-color: red;
-  height: 3px;
-  width: 100%;
-}
-
-
-
-.infobox1 {
-  background-color: rgb(65, 22, 65);
-  color: white;
-  height: 250px;
-  width: 75%;
-  display: flex;
-  border-radius: 15px;
-}
-
-
-
-.infoboxes{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 85%;
-  height: 250px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  gap: 1rem;
-} */
 .infoboxesx{
   display: flex;
   justify-content: space-around;
@@ -482,44 +446,51 @@ a:hover{
 }
 
 .profilebox{
-  /* border: 2px red solid; */
   background-color: rgb(24, 23, 23);
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  flex-wrap: wrap;
 }
 
 .profileheading{
-  /* border: 2px red solid; */
   color: white;
   font-size: 50px;
 }
 .profilelist{
-  /* border: 2px red solid; */
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
   align-items: center;
-  height: 250px;
-  width: 51%;
+  width: 100%;
+  height: max-content;
 }
-
-.profiles{
-  color: white;
-  border-radius: 5px;
-  width:170px;
-  height:170px;
-  font-size: 20px;
+.profile-boxes{
+  width: max-content;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.profiles{
+  color: white;
+  /* border-radius: 5px; */
+  width:170px;
+  height:max-content;
+  font-size: 20px;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column  ;
   align-items: space-around;
-  flex-direction: column;
   cursor: pointer;
   overflow: hidden;
 }
-.profiles:hover{
+.profiles img{
+  border-radius: 5px;
+}
+.profiles img:hover{
   border: 3.5px solid white;
 }
 .profilesn{
@@ -531,13 +502,6 @@ a:hover{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.profilenames{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 2px;
-  width: 51%;
 }
 
 .profilebutton{
@@ -839,7 +803,18 @@ footer{
   width: 100%;
   border-radius: 0 0 15px 15px;
 }
-
+.profile-boxes{
+  display: grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+}
+.profilebox{
+  padding: 50px;
+  height: max-content;
+}
+.profilebutton{
+  margin-top: .6rem;
+}
 }
 @media(max-width: 600px){
   .signuptext{
@@ -899,5 +874,35 @@ footer{
         font-size: 1.1rem;
       }
     }
+  }
+  .profilebox{
+    height: max-content;
+    padding: 12px;
+    text-align: center;
+  }
+  .profilelist{
+    display:flex;
+    flex-direction: column;
+    max-height: max-content;
+    gap: 1rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .profile-boxes{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    grid-column-gap: 0;
+  }
+  .profiles img{
+    width: 150px;
+    height: 150px;
+  }
+  .profileheading{
+    font-size: 1.6rem;
+    padding-top: 12px;
+  }
+  .profilebutton{
+    margin-bottom: 12px ;
   }
 }
