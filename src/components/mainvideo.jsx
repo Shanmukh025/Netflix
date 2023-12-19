@@ -4,7 +4,7 @@ const MainVideo = () => {
 return (
     <>
     <div style={{ zIndex: -1, backgroundColor:'black' }}>
-    <img src='https://i.pinimg.com/originals/99/f4/fd/99f4fd65bd221442bb6191f567508c99.gif' style={{height:'75vh'}}></img>
+    <img src='https://radargarut.jabarekspres.com/wp-content/uploads/2023/06/Peaky-Blinders.png' style={{height:'75vh'}}></img>
     </div>
     </>
 );

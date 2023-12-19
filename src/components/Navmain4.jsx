@@ -11,7 +11,7 @@ return (
     <nav className='navmain' style={{ zIndex: 1 }}>
         {/* Left side */}
         <div className="left-side">
-        <div className="logo-container" style={{ color: 'white', height: '30px' }}>
+        <div className="logo-container2" style={{ color: 'white', height: '30px' }}>
             <img
             src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
             alt="Netflix" onClick={() => { navigate(`/`)}}/>

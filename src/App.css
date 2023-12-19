@@ -41,6 +41,11 @@ nav {
   height: 50px;
   cursor: pointer;
 }
+.logo-container2 img {
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+}
 .signup-text{
   position: absolute;
   top: 10%;
@@ -455,7 +460,24 @@ a:hover{
 
 .profileheading{
   color: white;
+  height: 90px;
   font-size: 50px;
+}
+@media (max-width:400px) {
+  .profileheading {
+    height: 60px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .logo-container{
+    margin-left: 0;
+  }
+  .buttons-container select{
+    display: none;
+  }
+  .buttons-container button{
+    font-size: 20px;
+  }
 }
 .profilelist{
   display: flex;
@@ -863,7 +885,7 @@ footer{
     }
     .input{
       flex-direction: column;
-      gap: .5rem;
+      gap: 1.2rem;
       padding: 40px;
 
       .inputsp{

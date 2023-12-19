@@ -65,7 +65,6 @@ const Info = () => {
                     </div>
                 </article>
             </section>
-
             <section className="info-box-2">
                 <h3 className="heading">Play Mobile Games</h3>
                 <div className="playcard">
@@ -77,6 +76,7 @@ const Info = () => {
                         <br/>
                         <p>
                             <ul>
+                                <li>No ads. No extra fees. No in-app purchases.</li>
                                 <li>Unlimited access to more than 50+ exclusive mobile games.</li>
                                 <li>Download on Android phones, tablets, iPhone, iPads and Laptops.</li>
                             </ul>

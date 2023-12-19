@@ -33,7 +33,6 @@ const Signup = () => {
                 <span className="tag-line">Enter your email to create or restart your membership.</span>
             </article>
             <article className="input">
-                
                 <input className="inputsp" name="text" type='email' placeholder="Email Address" required/>
                 <button className='signupbtn' onClick={() => { navigate(`/profiles`)}} >Get Started</button>
             </article>
