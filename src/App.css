@@ -303,6 +303,14 @@ button.sign-up {
 .info-box-1, .info-box-3{
   padding: 40px;
 }
+.info-box-4{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
 .heading {
   color: white;
   font-size: 30px;
