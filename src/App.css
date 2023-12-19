@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter', system-ui, 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Inter", system-ui, "Avenir", "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ nav {
   z-index: 1;
 }
 
-.navmain{
+.navmain {
   background-color: #000000;
   color: white;
   display: flex;
@@ -46,21 +46,21 @@ nav {
   height: 35px;
   cursor: pointer;
 }
-.signup-text{
+.signup-text {
   position: absolute;
   top: 10%;
   left: 13%;
-  .text{
+  .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    h3{
+    h3 {
       font-size: 60px;
       /* width: 660px; */
       text-align: left;
     }
-    p{
+    p {
       font-size: 25px;
       font-weight: 600;
       text-align: left;
@@ -68,35 +68,34 @@ nav {
       padding-top: 8px;
       padding-bottom: 8px;
 
-      p{
-        margin-top: .4rem;
+      p {
+        margin-top: 0.4rem;
         margin-left: 0;
       }
     }
-    span{
+    span {
       font-size: 18px;
       margin-left: 2rem;
       color: #ccc;
     }
-    
   }
-  
-  .input{
+
+  .input {
     display: flex;
     align-items: center;
     width: 100%;
     padding: 30px;
 
-    input{
+    input {
       padding: 1.57rem 1.2rem;
       width: 325px;
     }
-    button{
-      padding: .7rem .9rem;
+    button {
+      padding: 0.7rem 0.9rem;
     }
   }
 }
-.redline{
+.redline {
   background-color: #e50914;
   width: 100%;
   height: 3px;
@@ -110,7 +109,7 @@ nav {
   cursor: pointer;
 }
 
-.nav-links a{
+.nav-links a {
   color: #d7d0d0;
   text-decoration: none;
 }
@@ -119,7 +118,6 @@ nav {
   text-decoration: none;
   color: #ffffff;
 }
-
 
 .right-side {
   display: flex;
@@ -200,7 +198,7 @@ button.sign-up {
   font-size: 16px;
 }
 
-.language{
+.language {
   color: white;
   background-color: #272626;
   padding: 4px 2px;
@@ -214,7 +212,7 @@ button.sign-up {
 .signup {
   width: 100%;
   position: relative;
-  background-image: url('https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg');
+  background-image: url("https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -231,7 +229,7 @@ button.sign-up {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.signuptext{
+.signuptext {
   position: absolute;
   top: 45%;
   left: 35%;
@@ -244,15 +242,16 @@ button.sign-up {
   display: flex;
   flex-direction: column;
 }
-.stheading{
+.stheading {
   /* border: 2px red solid; */
   width: 600px;
   font-size: 60px;
   font-weight: 700;
   color: #ffffff;
-  display:flex;
-  justify-content: start;}
-.stsubhead{
+  display: flex;
+  justify-content: start;
+}
+.stsubhead {
   /* border: 2px red solid; */
   width: 400px;
   font-size: 25px;
@@ -262,24 +261,24 @@ button.sign-up {
   margin-top: 20px;
   text-align: left;
 }
-.stsubhead2{
+.stsubhead2 {
   width: 600px;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
   color: rgb(168, 159, 159);
   margin-bottom: 20px;
-  display:flex;
+  display: flex;
   justify-content: start;
 }
-.stsubheadi{
+.stsubheadi {
   /* border: 2px red solid; */
   width: 600px;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 20px;
   margin-top: 20px;
-  display:flex;
+  display: flex;
   justify-content: start;
   height: 50px;
 }
@@ -303,7 +302,7 @@ button.sign-up {
   outline: 2px 2px 2px 2px solid red;
 }
 
-.signupbtn{
+.signupbtn {
   padding: 6px 16px;
   margin-left: 10px;
   border: 1px solid #000000;
@@ -311,16 +310,16 @@ button.sign-up {
   font-size: 22px;
   border-radius: 5px;
 }
-.info-box-1, .info-box-3{
+.info-box-1,
+.info-box-3 {
   padding: 40px;
 }
-.info-box-4{
+.info-box-4 {
   padding: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 .heading {
   color: white;
@@ -329,14 +328,14 @@ button.sign-up {
   padding: 20px;
   text-align: center;
 }
-.textbox{
+.textbox {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .infobox1 {
-color: #fff;
+  color: #fff;
 }
 .infobox1 img {
   width: 50%;
@@ -352,7 +351,7 @@ color: #fff;
   justify-content: center;
   align-items: center;
 }
-.playcard{
+.playcard {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -360,23 +359,23 @@ color: #fff;
   color: #fff;
   margin: 20px auto;
 }
-.image-container{
+.image-container {
   width: 400px;
   height: 255px;
 }
-.playcard-img{
+.playcard-img {
   object-fit: cover;
   width: 100%;
   border-radius: 10px 0 0 10px;
 }
-.text-container{
+.text-container {
   width: 30%;
   padding: 50px;
-  background-color: rgb(65, 22, 65);;
+  background-color: rgb(65, 22, 65);
   border-radius: 0 15px 15px 0;
 }
 
-.infoboxesx{
+.infoboxesx {
   display: flex;
   justify-content: space-around;
   width: 75%;
@@ -384,12 +383,12 @@ color: #fff;
   margin-top: 20px;
 }
 
-.box{
+.box {
   background-color: #05081c;
   color: white;
   border-radius: 25px;
-  width:300px;
-  height:250px;
+  width: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -399,12 +398,12 @@ color: #fff;
   cursor: pointer;
 }
 
-.join-box{
+.join-box {
   background-color: #1b303d;
   color: white;
   border-radius: 15px;
-  width:250px;
-  height:200px;
+  width: 250px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -412,7 +411,7 @@ color: #fff;
   text-align: center;
   padding: 20px;
 }
-.footercont{
+.footercont {
   color: white;
   background-color: #000000;
   text-align: center;
@@ -421,7 +420,7 @@ color: #fff;
   align-items: center;
 }
 
-.infoboxesf{
+.infoboxesf {
   display: flex;
   justify-content: center;
   width: 350px;
@@ -431,31 +430,31 @@ color: #fff;
   font-weight: 200;
 }
 
-.boxf{
+.boxf {
   color: white;
   border-radius: 15px;
-  width:350px;
-  height:60px;
+  width: 350px;
+  height: 60px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-footer{
+footer {
   background-color: #000000;
   padding: 10px;
   color: white;
   text-align: center;
-  font-weight:600;
+  font-weight: 600;
 }
-footer a{
+footer a {
   color: rgb(192, 185, 185);
   text-decoration: none;
 }
-footer a:hover{
+footer a:hover {
   color: white;
 }
 
-.profilebox{
+.profilebox {
   background-color: rgb(24, 23, 23);
   height: 100vh;
   display: flex;
@@ -463,28 +462,28 @@ footer a:hover{
   align-items: center;
 }
 
-.profileheading{
+.profileheading {
   color: white;
   height: 90px;
   font-size: 50px;
 }
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .profileheading {
     height: 60px;
     font-size: 50px;
     font-weight: 600;
   }
-  .logo-container{
+  .logo-container {
     margin-left: 0;
   }
-  .buttons-container select{
+  .buttons-container select {
     display: none;
   }
-  .buttons-container button{
+  .buttons-container button {
     font-size: 20px;
   }
 }
-.profilelist{
+.profilelist {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -493,38 +492,38 @@ footer a:hover{
   width: 100%;
   height: max-content;
 }
-.profile-boxes{
+.profile-boxes {
   width: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
 }
-.profiles{
+.profiles {
   color: white;
   /* border-radius: 5px; */
-  width:170px;
-  height:max-content;
+  width: 170px;
+  height: max-content;
   font-size: 20px;
   gap: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column  ;
+  flex-direction: column;
   align-items: space-around;
   cursor: pointer;
   overflow: hidden;
 }
-.profiles img{
+.profiles img {
   border-radius: 5px;
 }
-.profiles img:hover{
+.profiles img:hover {
   border: 3.5px solid white;
 }
-.profilesn{
+.profilesn {
   color: white;
-  width:180px;
-  height:25px;
+  width: 180px;
+  height: 25px;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -532,7 +531,7 @@ footer a:hover{
   flex-direction: column;
 }
 
-.profilebutton{
+.profilebutton {
   color: rgb(177, 162, 162);
   background-color: rgb(24, 23, 23);
   padding: 10px 15px;
@@ -542,7 +541,7 @@ footer a:hover{
   margin-top: 50px;
 }
 
-.profilebutton:hover{
+.profilebutton:hover {
   color: white;
   border: 0.5px solid white;
 }
@@ -555,7 +554,7 @@ footer a:hover{
   width: 800px;
   font-size: 23px;
 }
-.collapsible-section :hover{
+.collapsible-section :hover {
   background-color: #181717;
 }
 .collapsible-header {
@@ -573,7 +572,7 @@ footer a:hover{
   font-size: 1.5em;
 }
 
-.movieinfo{
+.movieinfo {
   background-color: #000000;
   display: flex;
   justify-content: center;
@@ -581,7 +580,7 @@ footer a:hover{
   flex-direction: column;
   gap: 50px;
 }
-.micontent{
+.micontent {
   height: 150px;
   color: white;
   width: 100%;
@@ -592,7 +591,7 @@ footer a:hover{
   gap: 20px;
 }
 
-.mcards{
+.mcards {
   gap: 50px;
   width: 350px;
   height: 200px;
@@ -611,12 +610,12 @@ img {
 @media (min-width: 768px) and (max-width: 1023px) {
   .text {
     font-size: 0.8rem;
- }
+  }
 }
 @media (min-width: 1024px) {
   .text {
     font-size: 1rem;
- }
+  }
 }
 .text--bold {
   font-weight: 700;
@@ -635,12 +634,12 @@ img {
 @media (min-width: 768px) and (max-width: 1023px) {
   .text--category {
     font-size: 1rem;
- }
+  }
 }
 @media (min-width: 1024px) {
   .text--category {
     font-size: 1.2rem;
- }
+  }
 }
 .flex {
   display: flex;
@@ -676,7 +675,7 @@ img {
   .wrapper__back {
     width: 100%;
     top: 0%;
- }
+  }
 }
 .wrapper:hover .wrapper__front {
   opacity: 0;
@@ -689,7 +688,7 @@ img {
 @media (min-width: 1024px) {
   .wrapper:hover .wrapper__back {
     width: 100%;
- }
+  }
 }
 .card {
   overflow: hidden;
@@ -711,13 +710,13 @@ img {
   .card__icon {
     width: 0.8rem;
     height: 0.8rem;
-}
+  }
 }
 @media (min-width: 1024px) {
   .card__icon {
     width: 1rem;
     height: 1rem;
-}
+  }
 }
 .card__title {
   color: white;
@@ -760,177 +759,176 @@ img {
   height: 100%;
   background: #e50914;
 }
-.box-1{
+.box-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-footer{
+footer {
   text-align: center;
 }
-.mainnn{
+.mainnn {
   background-color: #000000;
 }
-.stheading{
+.stheading {
   width: 600px;
   text-align: left;
 }
-@media(max-width: 1024px){
-.collapsible-section{
-  width: 100%;
+@media (max-width: 1024px) {
+  .collapsible-section {
+    width: 100%;
+  }
+  .textbox {
+    flex-direction: column;
+  }
+  .box-1 {
+    flex-direction: column;
+  }
+  .signuptext {
+    left: 60%;
+    justify-content: center;
+  }
+  .stheading {
+    font-size: 2rem;
+  }
+  .play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+  }
+  .infobox1 {
+    flex-direction: column;
+    width: 100%;
+    max-height: max-content;
+  }
+  .infobox1 img {
+    width: 100%;
+  }
+  .playcard {
+    padding: 10px;
+  }
+  .infobox1 div {
+    width: max-content;
+    max-height: max-content;
+  }
+  .playcard {
+    flex-direction: column;
+  }
+  .playcard-img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .text-container {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+  }
+  .profile-boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+  }
+  .profilebox {
+    padding: 50px;
+    height: max-content;
+  }
+  .profilebutton {
+    margin-top: 0.6rem;
+  }
 }
-.textbox{
-  flex-direction: column;
-}
-.box-1{
-  flex-direction: column;
-}
-.signuptext{
-  left: 60%;
-  justify-content: center;
-}
-.stheading{
-  font-size: 2rem;
-}
-.play-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: max-content;
-}
-.infobox1{
-  flex-direction: column;
-  width: 100%;
-  max-height: max-content;
-}
-.infobox1 img{
-  width: 100%;
-}
-.playcard{
-  padding: 10px;
-}
-.infobox1 div{
-  width: max-content;
-  max-height: max-content;
-}
-.playcard{
-  flex-direction: column;
-
-}
-.playcard-img{
-  width: 100%;
-  border-radius: 15px 15px 0 0;
-}
-.image-container{
-  width: 100%;
-}
-.text-container{
-  width: 100%;
-  border-radius: 0 0 15px 15px;
-}
-.profile-boxes{
-  display: grid;
-  grid-template-columns: auto auto;
-  place-items: center;
-}
-.profilebox{
-  padding: 50px;
-  height: max-content;
-}
-.profilebutton{
-  margin-top: .6rem;
-}
-}
-@media(max-width: 600px){
-  .signuptext{
+@media (max-width: 600px) {
+  .signuptext {
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .stheading{
+  .stheading {
     font-size: 1rem;
     text-align: center;
   }
-  .stsubhead{
-    font-size: .9rem;
+  .stsubhead {
+    font-size: 0.9rem;
   }
-  .stsubheadi{
+  .stsubheadi {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .signup{
+  .signup {
     max-height: max-content;
   }
-  .signup-text{
+  .signup-text {
     width: 100%;
     position: absolute;
     left: 0;
     top: 12%;
 
-    .text{
-      h3{
+    .text {
+      h3 {
         font-size: 2rem;
         text-align: center;
       }
-      p{
+      p {
         font-size: 1.2rem;
         text-align: center;
         margin-left: 0;
       }
-      span{
+      span {
         font-size: 1rem;
         margin-left: 0;
         text-align: center;
         font-weight: 600;
       }
     }
-    .input{
+    .input {
       flex-direction: column;
       gap: 1.2rem;
       padding: 40px;
 
-      .inputsp{
+      .inputsp {
         padding: 1.3rem 1rem;
         border: none;
       }
-      button{
-        padding: .6rem 1rem;
+      button {
+        padding: 0.6rem 1rem;
         font-size: 1.1rem;
       }
     }
   }
-  .profilebox{
+  .profilebox {
     height: max-content;
     padding: 12px;
     text-align: center;
   }
-  .profilelist{
-    display:flex;
+  .profilelist {
+    display: flex;
     flex-direction: column;
     max-height: max-content;
     gap: 1rem;
     height: 100vh;
     width: 100%;
   }
-  .profile-boxes{
+  .profile-boxes {
     display: grid;
     grid-template-columns: auto auto;
     padding: 20px;
     grid-column-gap: 0;
   }
-  .profiles img{
+  .profiles img {
     width: 150px;
     height: 150px;
   }
-  .profileheading{
+  .profileheading {
     font-size: 1.6rem;
     padding-top: 12px;
   }
-  .profilebutton{
-    margin-bottom: 12px ;
+  .profilebutton {
+    margin-bottom: 12px;
   }
 }
