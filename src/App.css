@@ -2,11 +2,11 @@
   font-family: 'Inter', system-ui, 'Avenir', 'Helvetica', 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-  overflow-x: hidden;
+  width: 100%;
 }
 
 nav {
@@ -36,9 +36,65 @@ nav {
 }
 
 .logo-container img {
-  width: 150px;
-  height: 45px;
+  width: 100px;
+  height: auto;
   cursor: pointer;
+}
+.signup-text{
+  position: absolute;
+  top: 10%;
+  left: 13%;
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    h3{
+      font-size: 60px;
+      /* width: 660px; */
+      text-align: left;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 600;
+      text-align: left;
+      margin-left: 2rem;
+      padding-top: 8px;
+      padding-bottom: 8px;
+
+      p{
+        margin-top: .4rem;
+        margin-left: 0;
+      }
+    }
+    span{
+      font-size: 18px;
+      margin-left: 2rem;
+      color: #ccc;
+    }
+    
+  }
+  
+  .input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+
+    input{
+      padding: 1.57rem 1.2rem;
+      width: 325px;
+    }
+    button{
+      padding: .7rem .9rem;
+    }
+  }
+}
+.redline{
+  background-color: #e50914;
+  width: 100%;
+  height: 3px;
+  border: none;
 }
 
 .nav-links {
@@ -145,6 +201,7 @@ button.sign-up {
 }
 
 .signup {
+  width: 100%;
   position: relative;
   background-image: url('https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg');
   background-size: cover;
@@ -164,7 +221,6 @@ button.sign-up {
 }
 
 .signuptext{
-  /* border: 2px red solid; */
   position: absolute;
   top: 45%;
   left: 35%;
@@ -173,7 +229,9 @@ button.sign-up {
   font-size: 24px;
   text-align: center;
   z-index: 2;
-  height: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .stheading{
   /* border: 2px red solid; */
@@ -185,17 +243,15 @@ button.sign-up {
   justify-content: start;}
 .stsubhead{
   /* border: 2px red solid; */
-  width: 600px;
+  width: 400px;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 20px;
   color: #ffffff;
   margin-top: 20px;
-  display:flex;
-  justify-content: start;
+  text-align: left;
 }
 .stsubhead2{
-  /* border: 2px red solid; */
   width: 600px;
   font-size: 18px;
   font-weight: 500;
@@ -244,39 +300,25 @@ button.sign-up {
   font-size: 22px;
   border-radius: 5px;
 }
-.info{
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.info-box-1, .info-box-3{
+  padding: 40px;
 }
-.infogap {
-  background-color: red;
-  height: 3px;
-  width: 100%;
-}
-
-.infoheading {
+.heading {
   color: white;
   font-size: 30px;
   font-weight: 700;
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
 }
-
+.textbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .infobox1 {
-  background-color: rgb(65, 22, 65);
-  color: white;
-  height: 250px;
-  width: 75%;
-  display: flex;
-  border-radius: 15px;
+color: #fff;
 }
-
 .infobox1 img {
   width: 50%;
   height: 250px;
@@ -291,15 +333,67 @@ button.sign-up {
   justify-content: center;
   align-items: center;
 }
+.playcard{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px auto;
+}
+.image-container{
+  width: 400px;
+  height: 255px;
+}
+.playcard-img{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.text-container{
+  width: 30%;
+  padding: 50px;
+  background-color: rgb(65, 22, 65);;
+  border-radius: 0 15px 15px 0;
+}
+
+
+/* .info{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infogap {
+  background-color: red;
+  height: 3px;
+  width: 100%;
+}
+
+
+
+.infobox1 {
+  background-color: rgb(65, 22, 65);
+  color: white;
+  height: 250px;
+  width: 75%;
+  display: flex;
+  border-radius: 15px;
+}
+
+
 
 .infoboxes{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 85%;
   height: 250px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
+  gap: 1rem;
+} */
 .infoboxesx{
   display: flex;
   justify-content: space-around;
@@ -319,9 +413,11 @@ button.sign-up {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
+  cursor: pointer;
 }
 
-.boxx{
+.join-box{
   background-color: #1b303d;
   color: white;
   border-radius: 15px;
@@ -332,6 +428,7 @@ button.sign-up {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 .footercont{
   color: white;
@@ -383,7 +480,6 @@ a:hover{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
   height: 100vh;
   flex-wrap: wrap;
 }
@@ -664,38 +760,136 @@ img {
   height: 100%;
   background: #e50914;
 }
+.box-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 footer{
   text-align: center;
 }
 .mainnn{
   background-color: black;
 }
-.login{
-  color: white;
+.stheading{
+  width: 600px;
+  text-align: left;
+}
+@media(max-width: 1024px){
+.collapsible-section{
+  width: 100%;
+}
+.textbox{
+  flex-direction: column;
+}
+.box-1{
+  flex-direction: column;
+}
+.signuptext{
+  left: 60%;
+  justify-content: center;
+}
+.stheading{
+  font-size: 2rem;
+}
+.play-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: max-content;
 }
-.login::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.infobox1{
+  flex-direction: column;
   width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4);
+  max-height: max-content;
 }
-.loginnav{
-  top: 10px;
-  background-color: transparent;
-  margin-left: 20px;
-  width:100%;
-  position: fixed;
+.infobox1 img{
+  width: 100%;
 }
-@media (max-width: 724px) {
-  .login img{
-    display: none;
+.playcard{
+  padding: 10px;
+}
+.infobox1 div{
+  width: max-content;
+  max-height: max-content;
+}
+.playcard{
+  flex-direction: column;
+
+}
+.playcard-img{
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.image-container{
+  width: 100%;
+}
+.text-container{
+  width: 100%;
+  border-radius: 0 0 15px 15px;
+}
+
+}
+@media(max-width: 600px){
+  .signuptext{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .stheading{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .stsubhead{
+    font-size: .9rem;
+  }
+  .stsubheadi{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup{
+    max-height: max-content;
+  }
+  .signup-text{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 12%;
+
+    .text{
+      h3{
+        font-size: 2rem;
+        text-align: center;
+      }
+      p{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 0;
+      }
+      span{
+        font-size: 1rem;
+        margin-left: 0;
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+    .input{
+      flex-direction: column;
+      gap: .5rem;
+      padding: 40px;
+
+      .inputsp{
+        padding: 1.3rem 1rem;
+        border: none;
+      }
+      button{
+        padding: .6rem 1rem;
+        font-size: 1.1rem;
+      }
+    }
   }
 }
