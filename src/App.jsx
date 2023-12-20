@@ -6,12 +6,14 @@ import Browse3 from './components/Browse3';
 import Browse4 from './components/Browse4';
 import LandingPage from './components/LandingPage';
 import Profiles from './components/Profiles';
+import Signin from './components/signin';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/signin" element={<Signin />} />
         <Route path="/profiles" element={<Profiles />} />
         <Route path="/profile1" element={<Browse />} />
         <Route path="/profile2" element={<Browse2 />} />

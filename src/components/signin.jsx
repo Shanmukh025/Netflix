@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Footer from './footer';
 
-const Navbar = () => {
+const Signin = () => {
     const navigate = useNavigate();
 return (
     <>
@@ -13,17 +14,17 @@ return (
         />
     </div>
     <div className="buttons-container">
-    <select name="language" id="language" className='language'>
-    <option value="english">Æ English</option>
-    <option value="french">ꞙ French</option>
-    <option value="italian">ĩ Italian</option>
-    <option value="spanish">ś Spanish</option>
-    </select>
-    <button className="sign-in" onClick={() => { navigate(`/signin`)}}>Sign In</button>
+    <button className="sign-in" onClick={() => { navigate(`/`)}}>Sign Up</button>
     </div>
     </nav>
+    <div className='signin'>
+        <div className='signin-container'>
+            </div>
+        <h1>Sign In</h1>
+    </div>
+    <Footer/>
     </>
-);
-};
+)
+}
 
-export default Navbar;
+export default Signin
