@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import dim from '../assets/3d.png'
 import doc from '../assets/documentary.png'
 import smartphone from '../assets/smartphone.png'
 import tv from '../assets/tv.png'
 
 const Info = () => {
+
+    const navigate = useNavigate();
+
     const CollapsibleSection = ({ title, content }) => {
         const [isOpen, setIsOpen] = useState(false);
         const handleToggle = () => {
@@ -133,6 +137,13 @@ const Info = () => {
                 Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>}
         />
         </div>
+            </section>
+            <section className="info-box-4">
+            <h3 className="heading">Ready to watch? Start your membership.</h3>
+            <article className="input">
+                <input className="inputsp" name="text" type='email' placeholder="Email Address" required/>
+                <button className='signupbtn' onClick={() => { navigate(`/signin`)}} >Get Started</button>
+            </article>
             </section>
         </div>
     </>

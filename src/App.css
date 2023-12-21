@@ -96,11 +96,43 @@ nav {
     }
   }
 }
+.info-box-4 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+
+  input {
+    padding: 1.57rem 1.2rem;
+    width: 325px;
+  }
+  button {
+    padding: 0.7rem 0.9rem;
+  }
+}
 .redline {
   background-color: #e50914;
   width: 100%;
   height: 3px;
   border: none;
+}
+
+@media (max-width: 600px) {
+  .info-box-4 .input {
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 40px;
+
+    .inputsp {
+      padding: 1.3rem 1rem;
+      border: none;
+    }
+    button {
+      padding: 0.6rem 1rem;
+      font-size: 1.1rem;
+    }
+  }
 }
 
 .nav-links {
