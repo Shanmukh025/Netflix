@@ -17,15 +17,12 @@ const Signup = () => {
             <div className='stsubhead2'>
                 Enter your email to create or restart your membership.
             </div>
-
             <div className='stsubheadi'>
                 <input className="inputsp" name="text" type='email' placeholder="Email Address" required/>
                 <button className='signupbtn' onClick={() => { navigate(`/profiles`)}} >Get Started</button>
             </div>
-
             
         </div> */}
-
         <section className="signup-text">
             <article className="text">
                 <h3 className="heading"> Unlimited movies, <br /> TV Shows and <br /> more...</h3>
