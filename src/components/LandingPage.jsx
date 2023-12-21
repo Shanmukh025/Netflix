@@ -5,24 +5,19 @@ import Loading from './Loading';
 import Navbar from './Navbar';
 import Signup from './Signup';
 
+
 const LandingPage = () => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
-        const hasVisited = localStorage.getItem('visited');
-        if (hasVisited) {
+        const timer = setTimeout(() => {
             setIsLoading(false);
-        } else {
-            const timer = setTimeout(() => {
-                setIsLoading(false);
-                
-                localStorage.setItem('visited', 'true');
-            }, 3000);
-            return () => clearTimeout(timer);
-        }
+        }, 3000);
+        return () => clearTimeout(timer);
     }, []);
     if (isLoading) {
         return <Loading />;
-    }
+}
+
     return (
     <>
     <Navbar/>
