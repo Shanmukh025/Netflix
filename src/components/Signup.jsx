@@ -34,7 +34,7 @@ const Signup = () => {
             </article>
             <article className="input">
                 <input className="inputsp" name="text" type='email' placeholder="Email Address" required/>
-                <button className='signupbtn' onClick={() => { navigate(`/profiles`)}} >Get Started</button>
+                <button className='signupbtn' onClick={() => { navigate(`/signin`)}} >Get Started</button>
             </article>
         </section>
     </div>
