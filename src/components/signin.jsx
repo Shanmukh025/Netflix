@@ -19,8 +19,8 @@ return (
     </nav>
     <div className='signin'>
         <div className='signin-container'>
-            </div>
         <h1>Sign In</h1>
+        </div>
     </div>
     <Footer/>
     </>
