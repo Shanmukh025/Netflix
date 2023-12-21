@@ -14,7 +14,7 @@ return (
     <div className="logo-container" style={{color:'white'}}>
         <img
         src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
-        alt="Netflix"
+        alt="Netflix" onClick={() => { navigate(`/`)}}
         />
     </div>
     <div className="buttons-container">
