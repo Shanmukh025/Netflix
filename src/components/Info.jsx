@@ -142,7 +142,7 @@ const Info = () => {
             <h3 className="heading">Ready to watch? Start your membership.</h3>
             <article className="input">
                 <input className="inputsp" name="text" type='email' placeholder="Email Address" required/>
-                <button className='signupbtn' onClick={() => { navigate(`/signin`)}} >Get Started</button>
+                <button className='signupbtn' onClick={() => { navigate(`/signin`)}}>Get Started</button>
             </article>
             </section>
         </div>
