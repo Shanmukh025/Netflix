@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import dim from '../assets/3d.png'
 import doc from '../assets/documentary.png'
@@ -6,9 +8,10 @@ import smartphone from '../assets/smartphone.png'
 import tv from '../assets/tv.png'
 
 const Info = () => {
-
+        useEffect(() => {
+            AOS.init();
+        }, [])
     const navigate = useNavigate();
-
     const CollapsibleSection = ({ title, content }) => {
         const [isOpen, setIsOpen] = useState(false);
         const handleToggle = () => {
@@ -35,8 +38,7 @@ const Info = () => {
     return (
     <>
         <div className="info-container">
-            
-            <section className="info-box-1">
+            <section className="info-box-1" data-aos="fade-up">
                 <h3 className="heading"> A Plan To Suit Your Needs</h3>
                 <article className="textbox">
                     <div className='box' id='box1'>
@@ -69,7 +71,7 @@ const Info = () => {
                     </div>
                 </article>
             </section>
-            <section className="info-box-2">
+            <section className="info-box-2" data-aos="fade-up">
                 <h3 className="heading">Play Mobile Games</h3>
                 <div className="playcard">
                     <section className="image-container">
@@ -87,7 +89,7 @@ const Info = () => {
                     </section>
                 </div>
             </section>
-            <section className="info-box-3">
+            <section className="info-box-3" data-aos="fade-up">
                 <h3 className="heading"> More Reasons to Join</h3>
                 <article className="textbox">
                     <div className='box join-box' id='box1'>
@@ -109,7 +111,7 @@ const Info = () => {
                     </div>
                 </article>
             </section>
-            <section className="info-box-4">
+            <section className="info-box-4" data-aos="fade-up">
             <h3 className="heading">Frequently Asked Questions</h3>
             <div className='collapsible'>
         <CollapsibleSection
@@ -138,7 +140,7 @@ const Info = () => {
         />
         </div>
             </section>
-            <section className="info-box-4">
+            <section className="info-box-4" data-aos="fade-up">
             <h3 className="heading">Ready to watch? Start your membership.</h3>
             <article className="input">
                 <input className="inputsp" name="text" type='email' placeholder="Email Address" required/>

@@ -1,11 +1,17 @@
-import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { default as React, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+    
     const navigate = useNavigate();
     return (
     <>
-    <div className='signup'>
+    <div className='signup' data-aos="fade-up" >
         {/* <div className='signuptext'>
             
             <div className='stheading'>
