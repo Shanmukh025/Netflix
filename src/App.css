@@ -373,6 +373,7 @@ button.sign-up {
   padding: 50px;
   background-color: rgb(65, 22, 65);
   border-radius: 0 15px 15px 0;
+  height: 255px;
 }
 
 .infoboxesx {
