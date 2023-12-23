@@ -61,12 +61,12 @@ return (
   <div class="wrapper">
     <div class="card card--rounded wrapper__front">
       <div class="card__header">
-        <img class="card__image" src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdNgatqAEYmpnLfi6tjKSmgKb2busntH34VDgo3JMSk7y6Jdwj4PXUFbCXe_YQVzjM69gNVoqTAEF82aMjY_KMlRHPJCtrh3k2d0UdqH1kxnACnKx2EBGZ4A1Y9O0joN9bXf.jpg?r=8a4" alt="money heist series banner" />
+        <img class="card__image" src="https://www.bestnetflixvpn.com/wp-content/uploads/2021/09/Watch-money-heist-on-netflix.jpg" alt="money heist series banner" />
       </div>
     </div>
     <div class="card card--rounded wrapper__back">
       <div class="card__header">
-        <img class="card__image" src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdNgatqAEYmpnLfi6tjKSmgKb2busntH34VDgo3JMSk7y6Jdwj4PXUFbCXe_YQVzjM69gNVoqTAEF82aMjY_KMlRHPJCtrh3k2d0UdqH1kxnACnKx2EBGZ4A1Y9O0joN9bXf.jpg?r=8a4" alt="money heist series banner" />
+        <img class="card__image" src="https://www.bestnetflixvpn.com/wp-content/uploads/2021/09/Watch-money-heist-on-netflix.jpg" alt="money heist series banner" />
       </div>
       <div class="card__body">
         <div class="flex justify-between items-center">
@@ -271,12 +271,12 @@ return (
   <div class="wrapper">
     <div class="card card--rounded wrapper__front">
       <div class="card__header">
-        <img class="card__image" src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABa3IC_4NEM9BPnW1DF6eo36jJTV1mknNgsj_epYqs1th1b4eyIJG9sSffOuRDxuawJCVyQzI-FlCQPbGKeu13DDle598siM-L7lk2Smra-exgr1xHNQw2rfdBy-6EPU7QLCY.jpg?r=a13" alt="snowpiercer series banner" />
+        <img class="card__image" src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRtVlOq3HqcfqSmd0NhS-Y6Fha6ng5mFnsI24O8F0bN-060tT8TMCLpd13gqMfdicg7aL7VxOmZsyKncu0vA6IwKdMns8UdvAau1BMzfslyodTGh4itj_ElVjphDuRHTSwRUdQ.jpg?r=e90" alt="snowpiercer series banner" />
       </div>
     </div>
     <div class="card card--rounded wrapper__back">
       <div class="card__header">
-        <img class="card__image" src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABa3IC_4NEM9BPnW1DF6eo36jJTV1mknNgsj_epYqs1th1b4eyIJG9sSffOuRDxuawJCVyQzI-FlCQPbGKeu13DDle598siM-L7lk2Smra-exgr1xHNQw2rfdBy-6EPU7QLCY.jpg?r=a13" alt="snowpiercer series banner" />
+        <img class="card__image" src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRtVlOq3HqcfqSmd0NhS-Y6Fha6ng5mFnsI24O8F0bN-060tT8TMCLpd13gqMfdicg7aL7VxOmZsyKncu0vA6IwKdMns8UdvAau1BMzfslyodTGh4itj_ElVjphDuRHTSwRUdQ.jpg?r=e90" alt="snowpiercer series banner" />
       </div>
       <div class="card__body">
         <div class="flex justify-between items-center">
