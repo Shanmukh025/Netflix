@@ -4,7 +4,7 @@
 
 <div style="display: flex; justify-content: center;">
   <div style="flex: 50%; padding: 5px;">
-    <img src="image_link_1.png" alt="Image 1" style="width: 100%;">
+    <img src="https://github.com/Shanmukh025/Netflix/blob/main/public/1.png" alt="Image 1" style="width: 100%;">
   </div>
   <div style="flex: 50%; padding: 5px;">
     <img src="image_link_2.png" alt="Image 2" style="width: 100%;">
