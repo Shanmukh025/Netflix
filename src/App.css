@@ -49,7 +49,7 @@ nav {
 }
 .loading {
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
   background-color: #000000;
   display: flex;
   justify-content: center;
@@ -94,7 +94,6 @@ nav {
     align-items: center;
     width: 100%;
     padding: 30px;
-
     input {
       padding: 1.57rem 1.2rem;
       width: 325px;

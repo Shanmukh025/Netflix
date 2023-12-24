@@ -46,7 +46,7 @@ return (
             {isDropdownOpen && (
             <div className="dropdown-content">
                 <a onClick={() => { navigate(`/profiles`)}}>Profiles</a>
-                <a onClick={() => { navigate(`/`)}}>Logout</a>
+                <a onClick={() => { navigate(`/signin`)}}>Logout</a>
             </div>
             )}
         </div>
