@@ -4,10 +4,10 @@
 
 <div style="display: flex; justify-content: center;">
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/1.png" alt="Image 1" style="width: 100%;">
+    <img src="https://i.imgur.com/2SrfdVJ.png" alt="Image 1" style="width: 100%;">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/2.png" alt="Image 2" style="width: 100%;">
+    <img src="https://i.imgur.com/G4YSpZD.png" alt="Image 2" style="width: 100%;">
   </div>
 </div>
 
