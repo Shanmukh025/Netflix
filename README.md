@@ -7,25 +7,25 @@
     <img src="./public/1.png" alt="Image 1" style="width: 100%;">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/2.png" alt="Image 2" style="width: 100%;">
+    <img src="./public/6.png" alt="Image 2" style="width: 100%;">
   </div>
 </div>
 
 <div style="display: flex; justify-content: center;">
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/3.png" alt="Image 3" style="width: 100%;">
+    <img src="./public/2.png" alt="Image 3" style="width: 100%;">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/4.png" alt="Image 4" style="width: 100%;">
+    <img src="./public/3.png" alt="Image 4" style="width: 100%;">
   </div>
 </div>
 
 <div style="display: flex; justify-content: center;">
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/5.png" alt="Image 3" style="width: 100%;">
+    <img src="./public/4.png" alt="Image 3" style="width: 100%;">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="./public/6.png" alt="Image 4" style="width: 100%;">
+    <img src="./public/5.png" alt="Image 4" style="width: 100%;">
   </div>
 </div>
 
