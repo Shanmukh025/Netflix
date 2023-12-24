@@ -1,4 +1,4 @@
-# Netflix Clone with ReactJS
+# Netflix Clone with React.
 
 ![Netflix Clone Logo](https://img.hi.91mobiles.com/uploads/2022/04/Netflix-Plan-list.jpg)
 
