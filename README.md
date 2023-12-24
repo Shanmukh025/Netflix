@@ -1,6 +1,6 @@
 # Netflix Clone with React.
 
-## Images Display (2x2 Grid)
+## Images Display
 
 <div style="display: flex; justify-content: center;">
   <div style="flex: 50%; padding: 5px;">
