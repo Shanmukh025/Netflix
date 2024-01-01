@@ -52,7 +52,7 @@ const Info = () => {
                         <img src={dim} alt="Phone"  style={{width:'45px', height:'45px'}}/>
                         <br/>
                         <h2>Basic</h2><br/>
-                        <p>A great way to enjoy your favourite shows & movies on a budget.</p><br/>
+                        <p>Great way to enjoy your favourite shows & movies in budget.</p><br/>
                         <h3>₹199/month</h3>
                     </div>
                     <div className='box' id='box3'>
