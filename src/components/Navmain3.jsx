@@ -45,7 +45,7 @@ return (
                         </div>
                     )}
                 </div>
-        <div className="right-side">
+        <div className="right-side" style={{marginLeft: '25px'}}>
         <div className="search-bar">
             <img
             src="https://icon-library.com/images/search-icon-white-png/search-icon-white-png-18.jpg"
