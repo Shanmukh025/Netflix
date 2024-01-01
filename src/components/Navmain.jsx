@@ -6,26 +6,48 @@ import red from '../assets/red.jpg';
 const Navmain = () => {
     const navigate = useNavigate();
     const [isDropdownOpen, setDropdownOpen] = useState(false);
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!isMobileMenuOpen);
+    };
+
 return (
     <>
     <nav className='navmain' style={{ zIndex: 1 }}>
         {/* Left side */}
         <div className="left-side">
-        <div className="logo-container2" style={{ color: 'white', height: '30px' }}>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
-            alt="Netflix" onClick={() => { navigate(`/`)}}/>
-        </div>
-        <div className="nav-links">
-            <a>Home</a>
-            <a>TV Shows</a>
-            <a>Movies</a>
-            <a>New & Popular</a>
-            <a>My List</a>
-        </div>
-        </div>
-        {/* Right side */}
-        <div className="right-side">
+                    {/* Hamburger Menu Icon (for smaller screens) */}
+                    <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+
+                    </div>
+                    {/* Logo */}
+                    <div className="logo-container2" style={{ color: 'white', height: '35px', marginLeft: '15px' }}>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix" onClick={() => { navigate(`/`) }} />
+                    </div>
+                    {/* Regular Navigation Links (for larger screens) */}
+                    <div className="nav-links">
+                        <a>Home</a>
+                        <a>TV Shows</a>
+                        <a>Movies</a>
+                        <a>New & Popular</a>
+                        <a>My List</a>
+                    </div>
+                    {/* Mobile Menu */}
+                    {isMobileMenuOpen && (
+                        <div className="mobile-menu">
+                            <a onClick={() => { navigate(`/`) }}>Home</a>
+                            <a>TV Shows</a>
+                            <a>Movies</a>
+                            <a>New & Popular</a>
+                            <a>My List</a>
+                        </div>
+                    )}
+                </div>
+        <div className="right-side" style={{marginLeft: '50px'}}>
         <div className="search-bar">
             <img
             src="https://icon-library.com/images/search-icon-white-png/search-icon-white-png-18.jpg"

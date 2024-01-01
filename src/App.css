@@ -1126,3 +1126,158 @@ form .form-help :where(label, a) {
     margin: 25px 0 40px;
   }
 }
+/* Your existing styles can go here */
+
+/* Hamburger Menu Styles */
+.mobile-menu-icon {
+  display: none; /* Initially hide for larger screens */
+  cursor: pointer;
+  z-index: 3; /* Ensure it's above other content */
+}
+
+.mobile-menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #000000; /* Or any other color you prefer */
+  overflow-x: hidden;
+  padding-top: 60px; /* Space for the close icon */
+  transition: transform 0.3s ease-out;
+  transform: translateX(-100%); /* Initially off-screen */
+  z-index: 2; /* Ensure it's above other content */
+}
+
+.mobile-menu a {
+  margin-left: 15px;
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  background-color: #000000; /* Hover color */
+}
+
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  z-index: 4; /* Ensure it's above other content */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide the regular nav links */
+  }
+
+  .mobile-menu-icon {
+    display: block; /* Display the hamburger menu icon */
+  }
+
+  /* Show the mobile menu when it's open */
+  .mobile-menu {
+    transform: translateX(0); /* Slide in from left when open */
+  }
+}
+/* Your existing styles can go here */
+
+/* Flexbox for left side alignment */
+.left-side {
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+/* Hamburger Menu Styles */
+.mobile-menu-icon {
+  display: none; /* Initially hide for larger screens */
+  cursor: pointer;
+  order: 1; /* Ensure it's first on smaller screens */
+}
+
+.mobile-menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+/* Logo and Navigation Links for larger screens */
+.logo-container2,
+.nav-links {
+  order: 2; /* Set the order for larger screens */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide the regular nav links on smaller screens */
+  }
+
+  .mobile-menu-icon {
+    display: flex; /* Display the hamburger menu icon on smaller screens */
+  }
+
+  /* Show the mobile menu when it's open */
+  .mobile-menu {
+    transform: translateX(0); /* Slide in from left when open */
+  }
+}
+/* Your existing styles can go here */
+
+/* Flexbox for left side alignment */
+.left-side {
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+/* Hamburger Menu Styles */
+.mobile-menu-icon {
+  display: none; /* Initially hide for larger screens */
+  cursor: pointer;
+  order: 1; /* Ensure it's first on smaller screens */
+}
+
+.mobile-menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+}
+
+/* Logo and Navigation Links for larger screens */
+.logo-container2,
+.nav-links {
+  order: 2; /* Set the order for larger screens */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide the regular nav links on smaller screens */
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+    flex-direction: column; /* Display the hamburger menu icon on smaller screens */
+  }
+
+  /* Show the mobile menu when it's open */
+  .mobile-menu {
+    transform: translateX(0); /* Slide in from left when open */
+  }
+}
