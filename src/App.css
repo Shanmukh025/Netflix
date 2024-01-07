@@ -154,13 +154,13 @@ nav {
 }
 
 .nav-links a {
-  color: #d7d0d0;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .nav-links a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #d7d0d0;
 }
 
 .right-side {
@@ -656,14 +656,22 @@ img {
 .text {
   font-size: 0.6rem;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .text {
     font-size: 0.8rem;
+  }
+  .loading {
+    height: 100vh;
   }
 }
 @media (min-width: 1024px) {
   .text {
     font-size: 1rem;
+  }
+}
+@media (min-width: 10px) and (max-width: 767px) {
+  .loading {
+    display: none;
   }
 }
 .text--bold {
