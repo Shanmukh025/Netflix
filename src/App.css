@@ -1,1295 +1,1296 @@
+/*SHANMUKH*/
 * {
-  font-family: "Inter", system-ui, "Avenir", "Helvetica", "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    font-family: "Inter", system-ui, "Avenir", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  width: 100%;
-  height: max-content;
+    width: 100%;
+    height: max-content;
 }
 
 nav {
-  max-width: 100%;
-  height: 75px;
-  background-color: #000000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 10px;
-  z-index: 1;
+    max-width: 100%;
+    height: 75px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 1;
 }
 
 .navmain {
-  background-color: #000000;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
 }
 
 .left-side {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .logo-container img {
-  width: 150px;
-  height: 50px;
-  cursor: pointer;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
 }
 .logo-container2 img {
-  width: 100px;
-  height: 35px;
-  cursor: pointer;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
 }
 .loading {
-  width: 100%;
-  max-height: 100vh;
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    max-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .signup-text {
-  position: absolute;
-  top: 10%;
-  left: 13%;
-  .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    h3 {
-      font-size: 60px;
-      /* width: 660px; */
-      text-align: left;
-    }
-    p {
-      font-size: 25px;
-      font-weight: 600;
-      text-align: left;
-      margin-left: 2rem;
-      padding-top: 8px;
-      padding-bottom: 8px;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        h3 {
+            font-size: 60px;
+            /* width: 660px; */
+            text-align: left;
+        }
+        p {
+            font-size: 25px;
+            font-weight: 600;
+            text-align: left;
+            margin-left: 2rem;
+            padding-top: 8px;
+            padding-bottom: 8px;
 
-      p {
-        margin-top: 0.4rem;
-        margin-left: 0;
-      }
+            p {
+                margin-top: 0.4rem;
+                margin-left: 0;
+            }
+        }
+        span {
+            font-size: 18px;
+            margin-left: 2rem;
+            color: #ccc;
+        }
     }
-    span {
-      font-size: 18px;
-      margin-left: 2rem;
-      color: #ccc;
-    }
-  }
 
-  .input {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 30px;
-    input {
-      padding: 1.57rem 1.2rem;
-      width: 325px;
+    .input {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+        input {
+            padding: 1.57rem 1.2rem;
+            width: 325px;
+        }
+        button {
+            padding: 0.7rem 0.9rem;
+        }
     }
-    button {
-      padding: 0.7rem 0.9rem;
-    }
-  }
 }
 .info-box-4 .input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
 
-  input {
-    padding: 1.57rem 1.2rem;
-    width: 325px;
-  }
-  button {
-    padding: 0.7rem 0.9rem;
-  }
+    input {
+        padding: 1.57rem 1.2rem;
+        width: 325px;
+    }
+    button {
+        padding: 0.7rem 0.9rem;
+    }
 }
 .redline {
-  background-color: #e50914;
-  width: 100%;
-  height: 3px;
-  border: none;
+    background-color: #e50914;
+    width: 100%;
+    height: 3px;
+    border: none;
 }
 
 @media (max-width: 600px) {
-  .info-box-4 .input {
-    flex-direction: column;
-    gap: 1.2rem;
-    padding: 40px;
+    .info-box-4 .input {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 40px;
 
-    .inputsp {
-      padding: 1.3rem 1rem;
-      border: none;
+        .inputsp {
+            padding: 1.3rem 1rem;
+            border: none;
+        }
+        button {
+            padding: 0.6rem 1rem;
+            font-size: 1.1rem;
+        }
     }
-    button {
-      padding: 0.6rem 1rem;
-      font-size: 1.1rem;
+    .loading {
+        height: 100vh;
+        width: 100%;
+        background-color: #000000;
     }
-  }
-  .loading {
-    height: 100vh;
-    width: 100%;
-    background-color: #000000;
-  }
 }
 
 .nav-links {
-  margin-left: 25px;
-  display: flex;
-  gap: 20px;
-  cursor: pointer;
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
 }
 
 .nav-links a {
-  color: #ffffff;
-  text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .nav-links a:hover {
-  text-decoration: none;
-  color: #d7d0d0;
+    text-decoration: none;
+    color: #d7d0d0;
 }
 
 .right-side {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .profile-dropdown img {
-  width: 39px;
-  height: 39px;
-  margin-right: 20px;
-  border-radius: 10%;
+    width: 39px;
+    height: 39px;
+    margin-right: 20px;
+    border-radius: 10%;
 }
 
 .search-bar img {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
 .logo-container {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .buttons-container {
-  display: flex;
-  gap: 15px;
+    display: flex;
+    gap: 15px;
 }
 
 nav img {
-  width: 160px;
-  height: 50px;
+    width: 160px;
+    height: 50px;
 }
 
 .profile-dropdown {
-  cursor: pointer;
-  position: relative;
+    cursor: pointer;
+    position: relative;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: #333;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .profile-dropdown:hover .dropdown-content {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .dropdown-content a {
-  padding: 15px 20px;
-  cursor: pointer;
-  color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
 }
 
 .dropdown-content a:hover {
-  background-color: #444;
+    background-color: #444;
 }
 button {
-  color: white;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 button.sign-in,
 button.sign-up {
-  padding: 8px 15px;
-  border: 1px solid #000000;
-  border-radius: 4px;
-  background-color: red;
-  font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: red;
+    font-size: 16px;
 }
 
 .language {
-  color: white;
-  background-color: #272626;
-  padding: 4px 2px;
-  border: 1px #000000;
-  cursor: pointer;
-  font-size: 14px;
-  margin-right: 5px;
-  border-radius: 5px;
+    color: white;
+    background-color: #272626;
+    padding: 4px 2px;
+    border: 1px #000000;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
 .signup {
-  width: 100%;
-  position: relative;
-  background-image: url("https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 89.7vh;
+    width: 100%;
+    position: relative;
+    background-image: url("https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 89.7vh;
 }
 
 .signup::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .signuptext {
-  position: absolute;
-  top: 45%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  z-index: 2;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .stheading {
-  /* border: 2px red solid; */
-  width: 600px;
-  font-size: 60px;
-  font-weight: 700;
-  color: #ffffff;
-  display: flex;
-  justify-content: start;
+    /* border: 2px red solid; */
+    width: 600px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: start;
 }
 .stsubhead {
-  /* border: 2px red solid; */
-  width: 400px;
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  color: #ffffff;
-  margin-top: 20px;
-  text-align: left;
+    /* border: 2px red solid; */
+    width: 400px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: left;
 }
 .stsubhead2 {
-  width: 600px;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  color: rgb(168, 159, 159);
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: start;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(168, 159, 159);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
 }
 .stsubheadi {
-  /* border: 2px red solid; */
-  width: 600px;
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: start;
-  height: 50px;
+    /* border: 2px red solid; */
+    width: 600px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    height: 50px;
 }
 .inputsp {
-  width: 275px;
-  padding: 10px 20px;
-  height: 30px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  line-height: 1.15;
-  color: white;
-  box-shadow: 0px 10px 20px -18px;
-  font-size: 18px;
-  background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 1px solid white;
+    width: 275px;
+    padding: 10px 20px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    color: white;
+    box-shadow: 0px 10px 20px -18px;
+    font-size: 18px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
 }
 
 .inputsp:focus {
-  border-radius: 4px 4px 2px 2px;
-  border: 2px solid white;
+    border-radius: 4px 4px 2px 2px;
+    border: 2px solid white;
 }
 
 .inputsp:hover {
-  outline: 2px 2px 2px 2px solid red;
+    outline: 2px 2px 2px 2px solid red;
 }
 
 .signupbtn {
-  padding: 6px 16px;
-  margin-left: 10px;
-  border: 1px solid #000000;
-  background-color: rgb(220, 22, 22);
-  font-size: 22px;
-  border-radius: 5px;
+    padding: 6px 16px;
+    margin-left: 10px;
+    border: 1px solid #000000;
+    background-color: rgb(220, 22, 22);
+    font-size: 22px;
+    border-radius: 5px;
 }
 .info-box-1,
 .info-box-3 {
-  padding: 40px;
+    padding: 40px;
 }
 .info-box-4 {
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .heading {
-  color: white;
-  font-size: 30px;
-  font-weight: 700;
-  padding: 20px;
-  text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
 }
 .textbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .infobox1 {
-  color: #fff;
+    color: #fff;
 }
 .infobox1 img {
-  width: 50%;
-  height: 250px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+    width: 50%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .infobox1 div {
-  padding: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .playcard {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 20px auto;
 }
 .image-container {
-  width: 400px;
-  height: 255px;
+    width: 400px;
+    height: 255px;
 }
 .playcard-img {
-  object-fit: cover;
-  width: 100%;
-  border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
 }
 .text-container {
-  width: 30%;
-  padding: 50px;
-  background-color: rgb(65, 22, 65);
-  border-radius: 0 15px 15px 0;
-  height: 255px;
+    width: 30%;
+    padding: 50px;
+    background-color: rgb(65, 22, 65);
+    border-radius: 0 15px 15px 0;
+    height: 255px;
 }
 
 .infoboxesx {
-  display: flex;
-  justify-content: space-around;
-  width: 75%;
-  height: 250px;
-  margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    height: 250px;
+    margin-top: 20px;
 }
 
 .box {
-  background-color: #05081c;
-  color: white;
-  border-radius: 25px;
-  width: 300px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  cursor: pointer;
+    background-color: #05081c;
+    color: white;
+    border-radius: 25px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
 }
 
 .join-box {
-  background-color: #1b303d;
-  color: white;
-  border-radius: 15px;
-  width: 250px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+    background-color: #1b303d;
+    color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 .footercont {
-  color: white;
-  background-color: #000000;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infoboxesf {
-  display: flex;
-  justify-content: center;
-  width: 350px;
-  height: 60px;
-  margin-top: 20px;
-  font-size: 10px;
-  font-weight: 200;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 200;
 }
 
 .boxf {
-  color: white;
-  border-radius: 15px;
-  width: 350px;
-  height: 60px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    color: white;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer {
-  background-color: #000000;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  font-weight: 600;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
 }
 footer a {
-  color: rgb(192, 185, 185);
-  text-decoration: none;
+    color: rgb(192, 185, 185);
+    text-decoration: none;
 }
 footer a:hover {
-  color: white;
+    color: white;
 }
 
 .profilebox {
-  background-color: rgb(24, 23, 23);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: rgb(24, 23, 23);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profileheading {
-  color: white;
-  height: 90px;
-  font-size: 50px;
+    color: white;
+    height: 90px;
+    font-size: 50px;
 }
 @media (max-width: 400px) {
-  .profileheading {
-    height: 60px;
-    font-size: 50px;
-    font-weight: 600;
-  }
-  .logo-container {
-    margin-left: 0;
-  }
-  .buttons-container select {
-    display: none;
-  }
-  .buttons-container button {
-    font-size: 20px;
-  }
+    .profileheading {
+        height: 60px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .logo-container {
+        margin-left: 0;
+    }
+    .buttons-container select {
+        display: none;
+    }
+    .buttons-container button {
+        font-size: 20px;
+    }
 }
 .profilelist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.5rem;
-  align-items: center;
-  width: 100%;
-  height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    width: 100%;
+    height: max-content;
 }
 .profile-boxes {
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
 .profiles {
-  color: white;
-  /* border-radius: 5px; */
-  width: 170px;
-  height: max-content;
-  font-size: 20px;
-  gap: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-items: space-around;
-  cursor: pointer;
-  overflow: hidden;
+    color: white;
+    /* border-radius: 5px; */
+    width: 170px;
+    height: max-content;
+    font-size: 20px;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: space-around;
+    cursor: pointer;
+    overflow: hidden;
 }
 .profiles img {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 .profiles img:hover {
-  border: 3.5px solid white;
+    border: 3.5px solid white;
 }
 .profilesn {
-  color: white;
-  width: 180px;
-  height: 25px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    color: white;
+    width: 180px;
+    height: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .profilebutton {
-  color: rgb(177, 162, 162);
-  background-color: rgb(24, 23, 23);
-  padding: 10px 15px;
-  font-size: 18px;
-  text-align: center;
-  border: 0.5px solid rgb(148, 130, 130);
-  margin-top: 50px;
+    color: rgb(177, 162, 162);
+    background-color: rgb(24, 23, 23);
+    padding: 10px 15px;
+    font-size: 18px;
+    text-align: center;
+    border: 0.5px solid rgb(148, 130, 130);
+    margin-top: 50px;
 }
 
 .profilebutton:hover {
-  color: white;
-  border: 0.5px solid white;
+    color: white;
+    border: 0.5px solid white;
 }
 
 .collapsible-section {
-  border: 1px solid #fff;
-  background-color: #2a2727;
-  color: #fff;
-  margin: 10px 0;
-  width: 800px;
-  font-size: 23px;
+    border: 1px solid #fff;
+    background-color: #2a2727;
+    color: #fff;
+    margin: 10px 0;
+    width: 800px;
+    font-size: 23px;
 }
 .collapsible-section :hover {
-  background-color: #181717;
+    background-color: #181717;
 }
 .collapsible-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .collapsible-content {
-  padding: 10px;
-  font-size: 19px;
+    padding: 10px;
+    font-size: 19px;
 }
 .collapsible-header span {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .movieinfo {
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
 }
 .micontent {
-  height: 150px;
-  color: white;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: coloumn;
-  gap: 20px;
+    height: 150px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: coloumn;
+    gap: 20px;
 }
 
 .mcards {
-  gap: 50px;
-  width: 350px;
-  height: 200px;
-  flex-direction: row;
+    gap: 50px;
+    width: 350px;
+    height: 200px;
+    flex-direction: row;
 }
 body {
-  background: #141414;
+    background: #141414;
 }
 img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .text {
-  font-size: 0.6rem;
+    font-size: 0.6rem;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .text {
-    font-size: 0.8rem;
-  }
-  .loading {
-    height: 100vh;
-  }
+    .text {
+        font-size: 0.8rem;
+    }
+    .loading {
+        height: 100vh;
+    }
 }
 @media (min-width: 1024px) {
-  .text {
-    font-size: 1rem;
-  }
+    .text {
+        font-size: 1rem;
+    }
 }
 @media (min-width: 10px) and (max-width: 767px) {
-  .loading {
-    display: none;
-  }
+    .loading {
+        display: none;
+    }
 }
 .text--bold {
-  font-weight: 700;
-  margin-right: 0.3rem;
+    font-weight: 700;
+    margin-right: 0.3rem;
 }
 .text--muted {
-  color: grey;
+    color: grey;
 }
 .text--white {
-  color: white;
+    color: white;
 }
 .text--category {
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .text--category {
-    font-size: 1rem;
-  }
+    .text--category {
+        font-size: 1rem;
+    }
 }
 @media (min-width: 1024px) {
-  .text--category {
-    font-size: 1.2rem;
-  }
+    .text--category {
+        font-size: 1.2rem;
+    }
 }
 .flex {
-  display: flex;
+    display: flex;
 }
 .justify-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 .items-center {
-  align-items: center;
+    align-items: center;
 }
 .cards {
-  display: flex;
-  gap: 0.75rem;
+    display: flex;
+    gap: 0.75rem;
 }
 .wrapper {
-  position: relative;
-  width: 15rem;
+    position: relative;
+    width: 15rem;
 }
 .wrapper__front {
-  position: absolute;
-  transition: all 250ms ease-out;
-  transition-delay: 200ms;
+    position: absolute;
+    transition: all 250ms ease-out;
+    transition-delay: 200ms;
 }
 .wrapper__back {
-  position: absolute;
-  opacity: 0;
-  width: 150%;
-  transition: all 250ms ease-out;
-  transition-delay: 200ms;
-  z-index: 999;
+    position: absolute;
+    opacity: 0;
+    width: 150%;
+    transition: all 250ms ease-out;
+    transition-delay: 200ms;
+    z-index: 999;
 }
 @media (min-width: 1024px) {
-  .wrapper__back {
-    width: 100%;
-    top: 0%;
-  }
+    .wrapper__back {
+        width: 100%;
+        top: 0%;
+    }
 }
 .wrapper:hover .wrapper__front {
-  opacity: 0;
+    opacity: 0;
 }
 .wrapper:hover .wrapper__back {
-  opacity: 1;
-  width: 150%;
-  transform: scale(1.15) translateY(-20%);
+    opacity: 1;
+    width: 150%;
+    transform: scale(1.15) translateY(-20%);
 }
 @media (min-width: 1024px) {
-  .wrapper:hover .wrapper__back {
-    width: 100%;
-  }
+    .wrapper:hover .wrapper__back {
+        width: 100%;
+    }
 }
 .card {
-  overflow: hidden;
-  background-color: #141414;
-  box-shadow: 0 0 10px 1px #0a0a0a;
+    overflow: hidden;
+    background-color: #141414;
+    box-shadow: 0 0 10px 1px #0a0a0a;
 }
 .card--rounded {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 .card__body {
-  padding: 1.25rem 0.75rem;
+    padding: 1.25rem 0.75rem;
 }
 .card__icon {
-  width: 0.6rem;
-  height: 0.6rem;
-  fill: white;
+    width: 0.6rem;
+    height: 0.6rem;
+    fill: white;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .card__icon {
-    width: 0.8rem;
-    height: 0.8rem;
-  }
+    .card__icon {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
 }
 @media (min-width: 1024px) {
-  .card__icon {
-    width: 1rem;
-    height: 1rem;
-  }
+    .card__icon {
+        width: 1rem;
+        height: 1rem;
+    }
 }
 .card__title {
-  color: white;
-  margin-top: 1.25rem;
+    color: white;
+    margin-top: 1.25rem;
 }
 .card__progress {
-  margin-top: 1rem;
-  gap: 0.75rem;
+    margin-top: 1rem;
+    gap: 0.75rem;
 }
 .btn {
-  padding: 0.5rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  transition: all 250ms;
+    padding: 0.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 250ms;
 }
 .btn--transparent {
-  background: transparent;
+    background: transparent;
 }
 .btn--circle {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 .btn:hover {
-  background: white;
+    background: white;
 }
 .btn:hover .card__icon {
-  fill: #141414;
+    fill: #141414;
 }
 .progressbar {
-  flex: 1;
-  height: 0.15rem;
-  border-radius: 5px;
-  background: grey;
-  overflow: hidden;
+    flex: 1;
+    height: 0.15rem;
+    border-radius: 5px;
+    background: grey;
+    overflow: hidden;
 }
 .progressbar__status {
-  width: 98%;
-  height: 100%;
-  background: #e50914;
+    width: 98%;
+    height: 100%;
+    background: #e50914;
 }
 .box-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 footer {
-  text-align: center;
+    text-align: center;
 }
 .mainnn {
-  background-color: #000000;
+    background-color: #000000;
 }
 .stheading {
-  width: 600px;
-  text-align: left;
+    width: 600px;
+    text-align: left;
 }
 @media (max-width: 1024px) {
-  .collapsible-section {
-    width: 100%;
-  }
-  .textbox {
-    flex-direction: column;
-  }
-  .box-1 {
-    flex-direction: column;
-  }
-  .signuptext {
-    left: 60%;
-    justify-content: center;
-  }
-  .stheading {
-    font-size: 2rem;
-  }
-  .play-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: max-content;
-  }
-  .infobox1 {
-    flex-direction: column;
-    width: 100%;
-    max-height: max-content;
-  }
-  .infobox1 img {
-    width: 100%;
-  }
-  .playcard {
-    padding: 10px;
-  }
-  .infobox1 div {
-    width: max-content;
-    max-height: max-content;
-  }
-  .playcard {
-    flex-direction: column;
-  }
-  .playcard-img {
-    width: 100%;
-    border-radius: 15px 15px 0 0;
-  }
-  .image-container {
-    width: 100%;
-  }
-  .text-container {
-    width: 100%;
-    border-radius: 0 0 15px 15px;
-  }
-  .profile-boxes {
-    display: grid;
-    grid-template-columns: auto auto;
-    place-items: center;
-  }
-  .profilebox {
-    padding: 50px;
-    height: max-content;
-  }
-  .profilebutton {
-    margin-top: 0.6rem;
-  }
+    .collapsible-section {
+        width: 100%;
+    }
+    .textbox {
+        flex-direction: column;
+    }
+    .box-1 {
+        flex-direction: column;
+    }
+    .signuptext {
+        left: 60%;
+        justify-content: center;
+    }
+    .stheading {
+        font-size: 2rem;
+    }
+    .play-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: max-content;
+    }
+    .infobox1 {
+        flex-direction: column;
+        width: 100%;
+        max-height: max-content;
+    }
+    .infobox1 img {
+        width: 100%;
+    }
+    .playcard {
+        padding: 10px;
+    }
+    .infobox1 div {
+        width: max-content;
+        max-height: max-content;
+    }
+    .playcard {
+        flex-direction: column;
+    }
+    .playcard-img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .text-container {
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+    }
+    .profile-boxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        place-items: center;
+    }
+    .profilebox {
+        padding: 50px;
+        height: max-content;
+    }
+    .profilebutton {
+        margin-top: 0.6rem;
+    }
 }
 @media (max-width: 600px) {
-  .signuptext {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .stheading {
-    font-size: 1rem;
-    text-align: center;
-  }
-  .stsubhead {
-    font-size: 0.9rem;
-  }
-  .stsubheadi {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .signup {
-    max-height: max-content;
-  }
-  .signup-text {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 12%;
-
-    .text {
-      h3 {
-        font-size: 2rem;
-        text-align: center;
-      }
-      p {
-        font-size: 1.2rem;
-        text-align: center;
-        margin-left: 0;
-      }
-      span {
+    .signuptext {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .stheading {
         font-size: 1rem;
-        margin-left: 0;
         text-align: center;
-        font-weight: 600;
-      }
     }
-    .input {
-      flex-direction: column;
-      gap: 1.2rem;
-      padding: 40px;
+    .stsubhead {
+        font-size: 0.9rem;
+    }
+    .stsubheadi {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup {
+        max-height: max-content;
+    }
+    .signup-text {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 12%;
 
-      .inputsp {
-        padding: 1.3rem 1rem;
-        border: none;
-      }
-      button {
-        padding: 0.6rem 1rem;
-        font-size: 1.1rem;
-      }
+        .text {
+            h3 {
+                font-size: 2rem;
+                text-align: center;
+            }
+            p {
+                font-size: 1.2rem;
+                text-align: center;
+                margin-left: 0;
+            }
+            span {
+                font-size: 1rem;
+                margin-left: 0;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+        .input {
+            flex-direction: column;
+            gap: 1.2rem;
+            padding: 40px;
+
+            .inputsp {
+                padding: 1.3rem 1rem;
+                border: none;
+            }
+            button {
+                padding: 0.6rem 1rem;
+                font-size: 1.1rem;
+            }
+        }
     }
-  }
-  .profilebox {
-    height: max-content;
-    padding: 12px;
-    text-align: center;
-  }
-  .profilelist {
-    display: flex;
-    flex-direction: column;
-    max-height: max-content;
-    gap: 1rem;
-    height: 100vh;
-    width: 100%;
-  }
-  .profile-boxes {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 20px;
-    grid-column-gap: 0;
-  }
-  .profiles img {
-    width: 150px;
-    height: 150px;
-  }
-  .profileheading {
-    font-size: 1.6rem;
-    padding-top: 12px;
-  }
-  .profilebutton {
-    margin-bottom: 12px;
-  }
+    .profilebox {
+        height: max-content;
+        padding: 12px;
+        text-align: center;
+    }
+    .profilelist {
+        display: flex;
+        flex-direction: column;
+        max-height: max-content;
+        gap: 1rem;
+        height: 100vh;
+        width: 100%;
+    }
+    .profile-boxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+        grid-column-gap: 0;
+    }
+    .profiles img {
+        width: 150px;
+        height: 150px;
+    }
+    .profileheading {
+        font-size: 1.6rem;
+        padding-top: 12px;
+    }
+    .profilebutton {
+        margin-bottom: 12px;
+    }
 }
 
 .signin {
-  background-image: url("https://thefatork.store/cdn/shop/articles/netflix.jpg?v=1669877376");
-  height: 90vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-image: url("https://thefatork.store/cdn/shop/articles/netflix.jpg?v=1669877376");
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .signin::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 90vh;
-  background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .signin-container {
-  color: white;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-wrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  border-radius: 4px;
-  padding: 70px;
-  width: 450px;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    padding: 70px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
 }
 .form-wrapper h2 {
-  color: #fff;
-  font-size: 2rem;
+    color: #fff;
+    font-size: 2rem;
 }
 .form-wrapper form {
-  margin: 25px 0 65px;
+    margin: 25px 0 65px;
 }
 form .form-control {
-  height: 50px;
-  position: relative;
-  margin-bottom: 16px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
 }
 .form-control input {
-  height: 100%;
-  width: 100%;
-  background: #333;
-  border: none;
-  outline: none;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 1rem;
-  padding: 0 20px;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 20px;
 }
 .form-control input:is(:focus, :valid) {
-  background: #444;
-  padding: 16px 20px 0;
+    background: #444;
+    padding: 16px 20px 0;
 }
 .form-control label {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1rem;
-  pointer-events: none;
-  color: #8c8c8c;
-  transition: all 0.1s ease;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
 }
 .form-control input:is(:focus, :valid) ~ label {
-  font-size: 0.75rem;
-  transform: translateY(-130%);
+    font-size: 0.75rem;
+    transform: translateY(-130%);
 }
 form button {
-  width: 100%;
-  padding: 16px 0;
-  font-size: 1rem;
-  background: #e50914;
-  color: #fff;
-  font-weight: 500;
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  margin: 25px 0 10px;
-  cursor: pointer;
-  transition: 0.1s ease;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 25px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
 }
 form button:hover {
-  background: #c40812;
+    background: #c40812;
 }
 .form-wrapper a {
-  text-decoration: none;
-  cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .form-wrapper :where(label, p, small, a) {
-  color: #b3b3b3;
+    color: #b3b3b3;
 }
 form .form-help {
-  display: flex;
-  justify-content: space-between;
-  cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 form .remember-me {
-  display: flex;
+    display: flex;
 }
 form .remember-me input {
-  margin-right: 5px;
-  accent-color: #b3b3b3;
+    margin-right: 5px;
+    accent-color: #b3b3b3;
 }
 form .form-help :where(label, a) {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 .form-wrapper p a {
-  color: #fff;
+    color: #fff;
 }
 .form-wrapper small {
-  display: block;
-  margin-top: 15px;
-  color: #b3b3b3;
+    display: block;
+    margin-top: 15px;
+    color: #b3b3b3;
 }
 .form-wrapper small a {
-  color: #0071eb;
+    color: #0071eb;
 }
 @media (max-width: 740px) {
-  body::before {
-    display: none;
-  }
-  nav,
-  .form-wrapper {
-    padding: 20px;
-  }
-  nav a img {
-    width: 140px;
-  }
-  .form-wrapper {
-    width: 100%;
-    top: 43%;
-  }
-  .form-wrapper form {
-    margin: 25px 0 40px;
-  }
+    body::before {
+        display: none;
+    }
+    nav,
+    .form-wrapper {
+        padding: 20px;
+    }
+    nav a img {
+        width: 140px;
+    }
+    .form-wrapper {
+        width: 100%;
+        top: 43%;
+    }
+    .form-wrapper form {
+        margin: 25px 0 40px;
+    }
 }
 /* Your existing styles can go here */
 
 /* Hamburger Menu Styles */
 .mobile-menu-icon {
-  display: none; /* Initially hide for larger screens */
-  cursor: pointer;
-  z-index: 3; /* Ensure it's above other content */
+    display: none; /* Initially hide for larger screens */
+    cursor: pointer;
+    z-index: 3; /* Ensure it's above other content */
 }
 
 .mobile-menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 3px 0;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
 }
 
 /* Mobile Menu Styles */
 .mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 200px;
-  background-color: #000000; /* Or any other color you prefer */
-  overflow-x: hidden;
-  padding-top: 60px; /* Space for the close icon */
-  transition: transform 0.3s ease-out;
-  transform: translateX(-100%); /* Initially off-screen */
-  z-index: 2; /* Ensure it's above other content */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #000000; /* Or any other color you prefer */
+    overflow-x: hidden;
+    padding-top: 60px; /* Space for the close icon */
+    transition: transform 0.3s ease-out;
+    transform: translateX(-100%); /* Initially off-screen */
+    z-index: 2; /* Ensure it's above other content */
 }
 
 .mobile-menu a {
-  margin-left: 15px;
-  display: block;
-  padding: 15px;
-  color: white;
-  text-decoration: none;
+    margin-left: 15px;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
 }
 
 .mobile-menu a:hover {
-  background-color: #000000; /* Hover color */
+    background-color: #000000; /* Hover color */
 }
 
 .close-icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-  color: white;
-  font-size: 24px;
-  z-index: 4; /* Ensure it's above other content */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    z-index: 4; /* Ensure it's above other content */
 }
 
 /* Media Query for smaller screens */
 @media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Hide the regular nav links */
-  }
+    .nav-links {
+        display: none; /* Hide the regular nav links */
+    }
 
-  .mobile-menu-icon {
-    display: block; /* Display the hamburger menu icon */
-  }
+    .mobile-menu-icon {
+        display: block; /* Display the hamburger menu icon */
+    }
 
-  /* Show the mobile menu when it's open */
-  .mobile-menu {
-    transform: translateX(0); /* Slide in from left when open */
-  }
+    /* Show the mobile menu when it's open */
+    .mobile-menu {
+        transform: translateX(0); /* Slide in from left when open */
+    }
 }
 /* Your existing styles can go here */
 
 /* Flexbox for left side alignment */
 .left-side {
-  display: flex;
-  align-items: center; /* Vertically align items */
-}
-
-/* Hamburger Menu Styles */
-.mobile-menu-icon {
-  display: none; /* Initially hide for larger screens */
-  cursor: pointer;
-  order: 1; /* Ensure it's first on smaller screens */
-}
-
-.mobile-menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 3px 0;
-}
-
-/* Logo and Navigation Links for larger screens */
-.logo-container2,
-.nav-links {
-  order: 2; /* Set the order for larger screens */
-}
-
-/* Media Query for smaller screens */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Hide the regular nav links on smaller screens */
-  }
-
-  .mobile-menu-icon {
-    display: flex; /* Display the hamburger menu icon on smaller screens */
-  }
-
-  /* Show the mobile menu when it's open */
-  .mobile-menu {
-    transform: translateX(0); /* Slide in from left when open */
-  }
-}
-/* Your existing styles can go here */
-
-/* Flexbox for left side alignment */
-.left-side {
-  display: flex;
-  align-items: center; /* Vertically align items */
-}
-
-/* Hamburger Menu Styles */
-.mobile-menu-icon {
-  display: none; /* Initially hide for larger screens */
-  cursor: pointer;
-  order: 1; /* Ensure it's first on smaller screens */
-}
-
-.mobile-menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 3px;
-}
-
-/* Logo and Navigation Links for larger screens */
-.logo-container2,
-.nav-links {
-  order: 2; /* Set the order for larger screens */
-}
-
-/* Media Query for smaller screens */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Hide the regular nav links on smaller screens */
-  }
-
-  .mobile-menu-icon {
     display: flex;
-    flex-direction: column; /* Display the hamburger menu icon on smaller screens */
-  }
+    align-items: center; /* Vertically align items */
+}
 
-  /* Show the mobile menu when it's open */
-  .mobile-menu {
-    transform: translateX(0); /* Slide in from left when open */
-  }
+/* Hamburger Menu Styles */
+.mobile-menu-icon {
+    display: none; /* Initially hide for larger screens */
+    cursor: pointer;
+    order: 1; /* Ensure it's first on smaller screens */
+}
+
+.mobile-menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+/* Logo and Navigation Links for larger screens */
+.logo-container2,
+.nav-links {
+    order: 2; /* Set the order for larger screens */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide the regular nav links on smaller screens */
+    }
+
+    .mobile-menu-icon {
+        display: flex; /* Display the hamburger menu icon on smaller screens */
+    }
+
+    /* Show the mobile menu when it's open */
+    .mobile-menu {
+        transform: translateX(0); /* Slide in from left when open */
+    }
+}
+/* Your existing styles can go here */
+
+/* Flexbox for left side alignment */
+.left-side {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+/* Hamburger Menu Styles */
+.mobile-menu-icon {
+    display: none; /* Initially hide for larger screens */
+    cursor: pointer;
+    order: 1; /* Ensure it's first on smaller screens */
+}
+
+.mobile-menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+}
+
+/* Logo and Navigation Links for larger screens */
+.logo-container2,
+.nav-links {
+    order: 2; /* Set the order for larger screens */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide the regular nav links on smaller screens */
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        flex-direction: column; /* Display the hamburger menu icon on smaller screens */
+    }
+
+    /* Show the mobile menu when it's open */
+    .mobile-menu {
+        transform: translateX(0); /* Slide in from left when open */
+    }
 }
