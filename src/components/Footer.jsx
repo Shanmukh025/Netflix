@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         </div>
         <a href='https://shanmukhanaparthi.pythonanywhere.com/' target='_blank'>
-        Made with ❤️ by Shanmukh.
+        Netflix Clone 2023 Version. Made with <img src='https://emojigraph.org/media/apple/red-heart_2764-fe0f.png' style={{height: '20px', width: '20px'}}/> by Shanmukh.
         </a>
     </footer>
 )

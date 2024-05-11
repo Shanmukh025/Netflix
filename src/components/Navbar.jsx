@@ -19,7 +19,7 @@ return (
     <option value="italian">ĩ Italian</option>
     <option value="spanish">ś Spanish</option>
     </select>
-    <button className="sign-in" onClick={() => { navigate(`/login`)}}>Sign In</button>
+    <button className="sign-in" onClick={() => { navigate(`/signin`)}}>Sign In</button>
     </div>
     </nav>
     </>

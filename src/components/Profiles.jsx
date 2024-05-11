@@ -17,40 +17,40 @@ const Profiles = () => {
     return (
     <>
     <div className='profilebox'>
-    <div className='profileheading'>
-        Who's Watching?
-    </div>
     <div className='profilelist'>
-        <div className='profiles'>
-            <img src={red} alt="red" onClick={() => { navigate(`/profile1`)}}/>
+        <div className='profileheading'>
+            Who's Watching?
         </div>
-        <div className='profiles'>
-        <img src={blue} alt="blue" onClick={() => { navigate(`/profile2`)}}/>
+        <div className="profile-boxes">
+        <div className='profiles' onClick={() => { navigate(`/profile1`)}}>
+            <img src={red} alt="red"/>
+            <div className='profilesn'>
+                Profile 1
+            </div>
         </div>
-        <div className='profiles'>
-        <img src={yellow} alt="yellow" onClick={() => { navigate(`/profile3`)}} />
+        <div className='profiles' onClick={() => { navigate(`/profile2`)}}>
+            <img src={blue} alt="blue"/>
+            <div className='profilesn'>
+                Profile 2
+            </div>
         </div>
-        <div className='profiles'>
-        <img src={green} alt="green" onClick={() => { navigate(`/profile4`)}}/>
+        <div className='profiles' onClick={() => { navigate(`/profile3`)}} >
+            <img src={yellow} alt="yellow"/>
+            <div className='profilesn'>
+                Profile 3
+            </div>
         </div>
+        <div className='profiles' onClick={() => { navigate(`/profile4`)}}>
+            <img src={green} alt="green"/>
+            <div className='profilesn'>
+                Profile 4
+            </div>
+        </div>
+        </div>
+            <button className='profilebutton'>Manage Profiles</button>
     </div>
-    <div className='profilenames'>
-        <div className='profilesn'>
-            Profile 1
-        </div>
-        <div className='profilesn'>
-            Profile 2
-        </div>
-        <div className='profilesn'>
-            Profile 3
-        </div>
-        <div className='profilesn'>
-            Profile 4
-        </div>
-    </div>
-    <div className='profileheading'>
-        <button className='profilebutton'>Manage Profiles</button>
-    </div>
+    
+    
     </div>
     </>
 )
